@@ -38,6 +38,9 @@ brew cask install firefox
 brew cask install vlc
 brew cask install mplayerx
 brew cask install coda
-brew cask install atom
 brew cask install keka
 brew cask install adobe-creative-cloud
+
+## Install Atom
+brew cask install atom
+apm install `curl -fsSL https://raw.githubusercontent.com/Darmstaedter/MakeMyMacAwesome/master/atom_packages.list`
