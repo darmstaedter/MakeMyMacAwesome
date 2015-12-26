@@ -40,6 +40,7 @@ brew cask install mplayerx
 brew cask install coda
 brew cask install keka
 brew cask install adobe-creative-cloud
+brew cask install sqlitebrowser
 
 ## Install Atom
 brew cask install atom
