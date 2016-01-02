@@ -45,3 +45,7 @@ brew cask install sqlitebrowser
 ## Install Atom
 brew cask install atom
 apm install `curl -fsSL https://raw.githubusercontent.com/Darmstaedter/MakeMyMacAwesome/master/atom_packages.list`
+
+## Install Private Scripts
+brew tap sewolt/sewolt git@bitbucket.org:darmstaedter/sewolt-homebrew.git
+brew install sewolt
