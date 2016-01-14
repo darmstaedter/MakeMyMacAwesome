@@ -25,6 +25,7 @@ brew install caskroom/cask/brew-cask
 ## Install Software
 brew install git
 brew install nodejs
+brew install youtube-dl
 brew cask install google-chrome
 brew cask install postgres
 brew cask install skype
