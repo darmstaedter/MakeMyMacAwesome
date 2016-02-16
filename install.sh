@@ -15,8 +15,8 @@ source ~/.bash_profile
 rbenv install 2.3.0
 rbenv global 2.3.0
 
-## Install rails 4.2.4
-gem install rails -v 4.2.4
+## Install rails 4.2.5.1
+gem install rails -v 4.2.5.1
 rbenv rehash
 
 ## Install Homebrew Cask
