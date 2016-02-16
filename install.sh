@@ -37,7 +37,6 @@ brew cask install sequel-pro
 brew cask install iterm2
 brew cask install firefox
 brew cask install vlc
-brew cask install mplayerx
 brew cask install coda
 brew cask install keka
 brew cask install adobe-creative-cloud
