@@ -24,7 +24,12 @@ brew install caskroom/cask/brew-cask
 
 ## Install Software
 brew install git
-brew install nodejs
+
+brew install node --without-npm
+echo prefix=~/.npm-packages >> ~/.npmrc
+curl -L https://www.npmjs.com/install.sh | sh
+echo 'export PATH="$HOME/.node/bin:$PATH"' >> ~/.bash_profile
+
 brew install youtube-dl
 brew cask install google-chrome
 brew cask install postgres
@@ -49,3 +54,6 @@ apm install `curl -fsSL https://raw.githubusercontent.com/Darmstaedter/MakeMyMac
 ## Install Private Scripts
 brew tap sewolt/sewolt git@bitbucket.org:darmstaedter/sewolt-homebrew.git
 brew install sewolt
+
+
+source ~/.bash_profile

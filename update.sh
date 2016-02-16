@@ -19,4 +19,13 @@ gem update
 gem pristine --all
 
 # Update node
-npm install -g npm
+sudo rm -rf /usr/local/lib/node_modules
+brew uninstall node
+brew install node --without-npm
+echo prefix=~/.npm-packages >> ~/.npmrc
+curl -L https://www.npmjs.com/install.sh | sh
+echo 'export PATH="$HOME/.node/bin:$PATH"' >> ~/.bash_profile
+
+
+
+source ~/.bash_profile
