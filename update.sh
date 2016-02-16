@@ -17,3 +17,6 @@ rbenv rehash
 
 gem update
 gem pristine --all
+
+# Update node
+npm install -g npm
