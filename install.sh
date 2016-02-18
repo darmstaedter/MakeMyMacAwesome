@@ -57,3 +57,7 @@ brew install sewolt
 
 
 source ~/.bash_profile
+
+
+
+gem install jekyll
