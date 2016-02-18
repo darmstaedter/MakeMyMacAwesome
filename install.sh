@@ -61,3 +61,4 @@ source ~/.bash_profile
 
 
 gem install jekyll
+npm install --global gulp-cli
