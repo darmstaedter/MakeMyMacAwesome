@@ -28,7 +28,7 @@ brew install git
 brew install node --without-npm
 echo prefix=~/.npm-packages >> ~/.npmrc
 curl -L https://www.npmjs.com/install.sh | sh
-echo 'export PATH="$HOME/.node/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.npm-packages/bin:$PATH"' >> ~/.bash_profile
 
 brew install youtube-dl
 brew cask install google-chrome
@@ -62,3 +62,14 @@ source ~/.bash_profile
 
 gem install jekyll
 npm install --global gulp-cli
+
+# Install PHP
+brew install homebrew/php/php70
+echo 'export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"' >> ~/.bashrc
+
+# Install MySQL
+brew install mysql
+mysql_secure_installation
+ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+mysql.server start
