@@ -273,6 +273,8 @@ brew install -v homebrew/php/php70
 chmod -R ug+w $(brew --prefix php70)/lib/php
 
 brew install -v php70-opcache
+brew install --HEAD homebrew/php/php70-yaml
+brew install php70-imagick
 
 /usr/bin/sed -i '' "s|^\(\;\)\{0,1\}[[:space:]]*\(opcache\.enable[[:space:]]*=[[:space:]]*\)0|\21|; s|^;\(opcache\.memory_consumption[[:space:]]*=[[:space:]]*\)[0-9]*|\1256|;" $(brew --prefix)/etc/php/7.0/php.ini
 
