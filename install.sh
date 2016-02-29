@@ -46,6 +46,7 @@ brew cask install coda
 brew cask install keka
 brew cask install adobe-creative-cloud
 brew cask install sqlitebrowser
+brew cask install kaleidoscope
 
 ## Install Atom
 brew cask install atom
