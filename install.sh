@@ -295,4 +295,4 @@ sudo bash -c 'echo "port 35353" >> /etc/resolver/dev'
 
 
 # Secure MySQL
-(brew --prefix mysql)/bin/mysql_secure_installation
+$(brew --prefix mysql)/bin/mysql_secure_installation
