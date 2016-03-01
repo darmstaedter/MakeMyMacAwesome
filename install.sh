@@ -63,6 +63,7 @@ source ~/.bash_profile
 
 gem install jekyll
 npm install --global gulp-cli
+npm install -g bower
 
 # Install Webserver
 # From https://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew
